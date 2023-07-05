@@ -252,6 +252,7 @@ export abstract class Canvas extends GenericDisplay {
 				<p class="corner" @click=${this.fullScreen} title="Fullscreen">${fullscreen}</p>`
 			}
 			<div id="canvas" class="canvas-container" oncontextmenu="return false;"></div>
+			<div style="background: red; width: 500px; height: 500px; position: absolute; top: 0;" class="ciao">ciaooooooooooooooo</div>
 			<div id="snackbar"></div>
 		`;
 	}
